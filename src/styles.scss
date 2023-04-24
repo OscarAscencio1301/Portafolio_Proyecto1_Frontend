@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import './components/form/Form.scss';
+@import './components/Notes/notes.scss';
+@import './components/search/searchEleement.scss';
+@import './components/header/header.scss';
+@import './components/footer/footer.scss';

@@ -1,0 +1,35 @@
+.form_container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    gap: 30px;
+
+    .form_element {
+        display: flex;
+        flex-direction: column;
+
+        input, select, textarea {
+            padding: 5px 20px;
+            border-radius: 8px;
+            border: 1px solid rgba(11, 171, 43, 0.512);
+            font-size: 20px;
+            outline: none;
+            background-color: transparent;
+        }
+
+        textarea {
+            min-height: 120px;
+        }
+
+       
+    }
+
+    button {
+        background-color: rgba(11, 171, 43, 0.512);
+        color: white;
+        border: 1px solid rgba(11, 171, 43, 0.512);
+        padding: 10px 25px;
+        border-radius: 15px;
+    }
+}
